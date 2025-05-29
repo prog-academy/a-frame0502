@@ -15,6 +15,12 @@ index-files = "index.html"
 ignore-hidden-files = true
 disable-symlinks = true
 
+# MIMEタイプの追加（GLB/GLTF対応）
+mime-types = [
+  { extension = "glb",  type = "model/gltf-binary" },
+  { extension = "gltf", type = "model/gltf+json" }
+]
+
 [advanced]
 
 [[advanced.headers]]
